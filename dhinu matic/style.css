@@ -1,0 +1,107 @@
+/* Basic styling for the website */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #7ca8da;
+  padding: 20px;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-self: flex-end;
+  margin-left: 20vh;
+  margin-top: -30px;
+}
+
+nav ul li {
+  margin-left: 1.5rem;
+}
+
+nav ul li a {
+  color: rgb(28, 25, 25);
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.banner {
+  background: url("img/dhiu_logo_with_name-removebg-preview.png") no-repeat
+    center center/cover;
+  height: 150vh;
+  /* filter: blur(0.4px); */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.ctaa {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.about,
+.products,
+.contact {
+  padding: 50px;
+  text-align: center;
+}
+
+.product-card {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+footer {
+  background-color: #7f458a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.logo {
+  position: relative;
+  display: inline-block;
+  margin-top: 1rem;
+}
+.logo-dhinu {
+  height: 55px;
+  position: absolute;
+  top: -15px;
+}
+
+.logo1 {
+  height: 55px;
+  display: inline;
+  margin-top: -1rem;
+}
+.product-1 {
+  height: 20rem;
+}
+.cta,
+.btn-buy {
+  background-color: #ddd;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  background-color: rgb(249, 147, 52);
+}
+.agent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.agent a {
+  margin-left: 20px;
+}
